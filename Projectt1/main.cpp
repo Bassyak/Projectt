@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 using namespace std;
 int sumInRange(int start, int end) {
@@ -12,11 +12,11 @@ int sumInRange(int start, int end) {
 int main() {
     setlocale(LC_ALL, "Rus");
     int start, end;
-    std::cout << "Ââåäèòå íà÷àëî äèàïàçîíà: ";
+    std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ½Ğ°Ñ‡Ğ°Ğ»Ğ¾ Ğ´Ğ¸Ğ°Ğ¿Ğ°Ğ·Ğ¾Ğ½Ğ°: ";
     std::cin >> start;
-    std::cout << "Ââåäèòå êîíåö äèàïàçîíà: ";
+    std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ĞºĞ¾Ğ½ĞµÑ† Ğ´Ğ¸Ğ°Ğ¿Ğ°Ğ·Ğ¾Ğ½Ğ°: ";
     std::cin >> end;
     int result = sumInRange(start, end);
-    std::cout << "Ñóììà ÷èñåë â äèàïàçîíå: " << result << std::endl;
+    std::cout << "Ğ¡ÑƒĞ¼Ğ¼Ğ° Ñ‡Ğ¸ÑĞµĞ» Ğ² Ğ´Ğ¸Ğ°Ğ¿Ğ°Ğ·Ğ¾Ğ½Ğµ: " << result << std::endl;
     return 0;
 }

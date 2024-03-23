@@ -1,22 +1,22 @@
-#include <iostream>
+п»ї#include <iostream>
 #include <string>
 
 using namespace std;
 
 void printCard(int cardNumber) {
-    std::string suits[] = { "Пики", "Трефы", "Червы", "Бубны" };
-    std::string ranks[] = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "Валет", "Дама", "Король", "Туз" };
+    std::string suits[] = { "РџРёРєРё", "РўСЂРµС„С‹", "Р§РµСЂРІС‹", "Р‘СѓР±РЅС‹" };
+    std::string ranks[] = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "Р’Р°Р»РµС‚", "Р”Р°РјР°", "РљРѕСЂРѕР»СЊ", "РўСѓР·" };
 
     int suitIndex = (cardNumber - 1) / 13;
     int rankIndex = (cardNumber - 1) % 13;
 
-    std::cout << "Выпала карта: " << ranks[rankIndex] << " " << suits[suitIndex] << std::endl;
+    std::cout << "Р’С‹РїР°Р»Р° РєР°СЂС‚Р°: " << ranks[rankIndex] << " " << suits[suitIndex] << std::endl;
 }
 
 int main() {
     setlocale(LC_ALL, "Rus");
     int cardNumber;
-    std::cout << "Введите номер карты (от 1 до 52): ";
+    std::cout << "Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ РєР°СЂС‚С‹ (РѕС‚ 1 РґРѕ 52): ";
     std::cin >> cardNumber;
     printCard(cardNumber);
     return 0;

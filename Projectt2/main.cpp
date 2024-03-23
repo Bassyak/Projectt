@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 using namespace std;
 
@@ -13,7 +13,7 @@ bool isPerfect(int number) {
 }
 
 void findPerfectNumbers(int start, int end) {
-    std::cout << "Ñîâåğøåííûå ÷èñëà â èíòåğâàëå [" << start << ", " << end << "]:" << std::endl;
+    std::cout << "Ğ¡Ğ¾Ğ²ĞµÑ€ÑˆĞµĞ½Ğ½Ñ‹Ğµ Ñ‡Ğ¸ÑĞ»Ğ° Ğ² Ğ¸Ğ½Ñ‚ĞµÑ€Ğ²Ğ°Ğ»Ğµ [" << start << ", " << end << "]:" << std::endl;
     for (int i = start; i <= end; ++i) {
         if (isPerfect(i)) {
             std::cout << i << " ";
@@ -25,9 +25,9 @@ void findPerfectNumbers(int start, int end) {
 int main() {
     setlocale(LC_ALL, "Rus");
     int start, end;
-    std::cout << "Ââåäèòå íà÷àëî èíòåğâàëà: ";
+    std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ½Ğ°Ñ‡Ğ°Ğ»Ğ¾ Ğ¸Ğ½Ñ‚ĞµÑ€Ğ²Ğ°Ğ»Ğ°: ";
     std::cin >> start;
-    std::cout << "Ââåäèòå êîíåö èíòåğâàëà: ";
+    std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ĞºĞ¾Ğ½ĞµÑ† Ğ¸Ğ½Ñ‚ĞµÑ€Ğ²Ğ°Ğ»Ğ°: ";
     std::cin >> end;
     findPerfectNumbers(start, end);
     return 0;

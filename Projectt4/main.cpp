@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 using namespace std;
 
@@ -14,13 +14,13 @@ bool isLuckyNumber(int number) {
 int main() {
     setlocale(LC_ALL, "Rus");
     int num;
-    std::cout << "Ââåäèòå øåñòèçíà÷íîå ÷èñëî: ";
+    std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑˆÐµÑÑ‚Ð¸Ð·Ð½Ð°Ñ‡Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
     std::cin >> num;
     if (isLuckyNumber(num)) {
-        std::cout << num << " - ñ÷àñòëèâîå ÷èñëî!" << std::endl;
+        std::cout << num << " - ÑÑ‡Ð°ÑÑ‚Ð»Ð¸Ð²Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾!" << std::endl;
     }
     else {
-        std::cout << num << " - íå ñ÷àñòëèâîå ÷èñëî." << std::endl;
+        std::cout << num << " - Ð½Ðµ ÑÑ‡Ð°ÑÑ‚Ð»Ð¸Ð²Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾." << std::endl;
     }
     return 0;
 }
