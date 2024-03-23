@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 using namespace std;
 int power(int base, int exponent) {
@@ -12,11 +12,11 @@ int power(int base, int exponent) {
 int main() {
     setlocale(LC_ALL, "Rus");
     int base, exponent;
-    std::cout << "Ââåäèòå îñíîâàíèå ñòåïåíè: ";
+    std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¾ÑÐ½Ð¾Ð²Ð°Ð½Ð¸Ðµ ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸: ";
     std::cin >> base;
-    std::cout << "Ââåäèòå ïîêàçàòåëü ñòåïåíè: ";
+    std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ð¾ÐºÐ°Ð·Ð°Ñ‚ÐµÐ»ÑŒ ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸: ";
     std::cin >> exponent;
     int result = power(base, exponent);
-    std::cout << "Ðåçóëüòàò: " << result << std::endl;
+    std::cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: " << result << std::endl;
     return 0;
 }
